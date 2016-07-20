@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Be Nice</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Arima+Madurai:300" rel="stylesheet">
+  </head>
+  <body>
+    <header>
+      <h1>Be Nice Button</h1>
+    </header>
+    <main>
+      <button type="button" name="button">Tell Me Something Nice</button>
+    </main>
+    <div class="result">
+      <h1></h1>
+    </div>
+    <script src="https://www.gstatic.com/firebasejs/3.2.0/firebase.js"></script>
+    <script>
+      // Initialize Firebase
+      var config = {
+        apiKey: "AIzaSyALwWvrNrUYrgFhsrP9_mI1lpUUXFPi2WI",
+        authDomain: "fir-tutorial-290f8.firebaseapp.com",
+        databaseURL: "https://fir-tutorial-290f8.firebaseio.com",
+        storageBucket: "fir-tutorial-290f8.appspot.com",
+      };
+      firebase.initializeApp(config);
+    </script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+    <script src ="main.js"></script>
+  </body>
+</html>
